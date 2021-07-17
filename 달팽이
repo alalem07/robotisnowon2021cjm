@@ -1,0 +1,38 @@
+#include <stdio.h>
+int a[5][5];
+int print(int a[5][5]){
+	for(int i=0;i<5;i++){
+		for(int j=0;j<5;j++){
+			printf("%3d",a[i][j]);
+		}
+		printf("\n");
+	}
+	
+	
+}
+int main(){
+	a[5][5]={0,};
+	int c=1;
+	int n=5;
+for(int x=0;x<2;x++){
+	for(int j=0;j<n-x;j++){
+		a[0+x][j+x]=c++;
+	}	
+	for(int i=0;i<n-x;i++){
+		a[i][4+x]=c++;
+	}
+	for(int j=2;j>=0;j--){
+		a[4][j]=c++;
+	}
+	for(int j=3;j>=1;j--){
+		a[j][0+x]=c++;
+	}	
+	
+}	
+
+
+	
+	
+	print(a);
+	
+	

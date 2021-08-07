@@ -1,0 +1,48 @@
+//선택정렬
+#include <stdio.h>
+int main(){
+	int a[5] = {5,7,2,9,3};
+	int min,temp;
+for(int j=0;j<5;j++){
+	for(int i=j;i<5;i++){
+		if(a[i-1]>a[i]){
+			temp=a[i];
+			a[i]=a[i-1];
+			a[i-1]=temp;
+			
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+//	for(int i=1;i<5;i++){
+//		min=a[i];
+//		for(int j=i;j<5;j++){
+//			if(min>a[j]){
+//				temp=min;
+//				min=a[j];
+//				a[j]=temp;
+//			  	
+//				
+//			}		
+//			
+//		}
+
+for(int t=0;t<5;t++){
+		printf("%3d",a[t]);
+	}	
+//		
+//	}
+//	
+}

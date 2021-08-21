@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main(){
+float a,b,c,d,e,f;
+scanf("%f %f %f",&a,&b,&c);
+d=a+b+c;
+e=(a+b+c)/3;
+if(a>b && a>c){
+f=a;	
+}	
+if(b>a && b>c){
+f=b;	
+}	
+if(c>b && c>a){
+f=c;	
+}
+printf("총점:%.0f 평균:%.2f 최고점수:%.0f",d,e,f);		
+}

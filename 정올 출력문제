@@ -1,0 +1,33 @@
+#include <stdio.h>
+int main(){
+
+}
+//형성평가1
+//printf("My name is Hong"); 
+
+//형성평가2
+//printf("My hometown\n"); 
+//printf("Flowering mountain");
+
+//형성평가3
+//printf("TTTTTTTTTT\n"); 
+//printf("TTTTTTTTTT\n");
+//printf("    TT    \n");
+//printf("    TT    \n");
+//printf("    TT    ");
+
+//형성평가4
+//int sum=90+80+100;     
+//int avg=(90+80+100)/3;
+//printf("kor 90\n");
+//printf("mat 80\n");
+//printf("eng 100\n");
+//printf("sum %d\n",sum);
+//printf("avg %d",avg);
+
+//형성평가5 
+//	char a1[15]="Seoul";	
+//	char a2[15]="10,312,545";
+//	char a3[15]="+91,375";
+//	
+//	printf("%15s%15s%15s\n",a1,a2,a3);

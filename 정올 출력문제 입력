@@ -1,0 +1,42 @@
+//#include <stdio.h>
+//int main(){
+//	int a=10;
+//	int b=20;
+//	int c=30;
+//	printf("%d + %d = %d",a,b,c);
+//}
+
+//#include <stdio.h>
+//int main(){
+//	float a=80.50;
+//	float b=22.34;
+//	printf("%10.2f %10.2f %10.2f",a,b,a+b);	
+//}
+
+//#include <stdio.h>
+//int main(){
+//	int a=50;
+//	float b=100.12;
+//	printf("%.2f * %d = %.0f",b,a,a*b);	
+//}
+
+//#include <stdio.h>
+//int main(){
+//	int a,b,c;
+//	scanf("%d",&a);
+//	scanf("%d",&b);
+//	scanf("%d",&c);	
+//	printf("sum = %d\n",a+b+c);
+//	printf("avg = %d",(a+b+c)/3);
+//}
+
+//#include <stdio.h>
+//int main(){
+//	double a;
+//	printf("yard? \n");
+//	scanf("%lf",&a);
+//	printf("%.1lf yard =%.1lf",a,91.44*a); 
+//	
+//	
+//	
+//}

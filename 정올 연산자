@@ -1,0 +1,46 @@
+//#include <stdio.h>
+//int main(){
+//	int a,b,c,d;
+//	scanf("%d %d %d %d",&a,&b,&c,&d);
+//	printf("sum %d\n",a+b+c+d);
+//	printf("avg %d",(a+b+c+d)/4);
+//}
+
+//#include <stdio.h>
+//int main(){
+// int a,b;
+// scanf("%d %d",&a,&b);
+// printf("%d / %d = %d ... %d",a,b,a/b,a%b);	
+//}
+
+//#include <stdio.h>
+//int main(){
+//int a,b;
+//scanf("%d %d",&a,&b);
+//printf("width = %d\n",a+5);
+//printf("length = %d\n",b*2);
+//printf("area = %d",(a+5)*(b*2));	
+//}
+
+//#include <stdio.h>
+//int main(){
+//int a,b;
+//scanf("%d %d",&a,&b);
+//printf("%d %d\n",++a,b--);	
+//printf("%d %d",a,b);
+//}
+
+//#include <stdio.h>
+//int main(){
+//int a,b,c,d;
+//printf("민수와 기영이의 키와 몸무게를 입력하시오");
+//scanf("%d %d %d %d",&a,&b,&c,&d);
+//if(a>c && b>d){
+//	printf("1");
+//}
+//else{
+//	printf("0");
+//}
+//}
+
+

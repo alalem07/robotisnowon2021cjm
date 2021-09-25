@@ -1,0 +1,64 @@
+//#include <stdio.h>
+//int main(){
+//	int a,b;
+//	scanf("%d %d",&a,&b);
+//	if(a>b){
+//		printf("%d",a-b);
+//	}else{
+//		printf("%d",b-a);
+//	}
+//}
+
+//#include <stdio.h>
+//int main(){
+//	int a;
+//	scanf("%d",&a);
+//	if(a==0){
+//		printf(" zero ");
+//	}
+//	else if(a>0){
+//		printf(" plus ");
+//	}else{
+//		printf(" minus ");
+//	}
+//}
+
+//#include <stdio.h>
+//int main(){
+//	int a;
+//	scanf("%d",&a);
+//	if(a%400==0){
+//		printf("leaf year");
+//	}else if(a%4==0 && a%100!=0){
+//		printf("leaf year");
+//	}else{
+//		printf("common year");
+//	}
+//}
+
+//#include <stdio.h>
+//int main(){
+//	int a;
+//	printf("Number? ");
+//	scanf("%d",&a);
+//	if(a==1){
+//		printf("dog");
+//	}else if(a==2){
+//		printf("cat");
+//	}else if(a==3){
+//		printf("chick");
+//	}else{
+//		printf("I don't know.");
+//	}	
+//}
+
+//#include <stdio.h>
+//int main(){
+//	int a;
+//	printf("1~12까지의 정수 입력");
+//	scanf("%d",&a);
+//	int b[12]={31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+//	if(a>0 && a<13){
+//		printf("%d",b[a-1]);
+//	}
+//}

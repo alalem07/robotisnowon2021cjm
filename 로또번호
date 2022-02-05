@@ -1,0 +1,45 @@
+import random
+
+
+
+
+a = []
+
+num = random.randrange(1, 46)
+
+
+for i in range(6) :
+
+    while num in a :
+        num = random.randrange(1, 46)
+    a.append(num) 
+
+
+l = list(map(int, input().split()))
+same = [i for i, j in zip(a, l) if i == j]
+
+
+print(a)
+
+v=len(same)
+
+if v==6:
+    print("1등")
+
+if v==5:
+    print("2등")
+
+if v==4:
+    print("3등")
+
+if v==3:
+    print("4등")
+
+if v==2:
+    print("5등")
+
+if v==1:
+    print("6등")
+
+if v==0:
+    print("꼴등")

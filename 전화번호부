@@ -1,12 +1,10 @@
-
-
 addrList = [
-    {"idx":1,"name":'김강현',"phone":'010-2245-8471',"addr":'노원구'},
-    {"idx":2,"name":'이재준',"phone":'010-9045-1833',"addr":'노원구'},
-    {"idx":3,"name":'채종민',"phone":'010-4186-3611',"addr":'노원구'},
-    {"idx":4,"name":'우수연',"phone":'010-5527-2035',"addr":'노원구'}
+    {"idx":0,"name":'김강현',"phone":'010-1111-1111',"addr":'노원구'},
+    {"idx":1,"name":'이재준',"phone":'010-2222-2222',"addr":'노원구'},
+    {"idx":2,"name":'채종민',"phone":'010-3333-3333',"addr":'노원구'},
+    {"idx":3,"name":'우수연',"phone":'010-4444-4444',"addr":'노원구'}
 ]
-
+idx = 3
 
 
 def menu():
@@ -14,13 +12,53 @@ def menu():
     no = int (input("선택>>>"))
     return no
 
+def inputData():
+    print("#### 입력 ####")
+    global idx
+    idx += 1
+    name = input("성명입력>>>")
+    phone = input("전화번호입력>>> ")
+    addr = input("주소입력>>>")
+    data_value = {"idx": idx, "name":name, "phone":phone, "addr":addr}
+    addrList.append(data_value)
+    print("데이터입력성공!")
+
 def outputData():
     print("#### 출력 ####")
     for i in addrList:
         print("{:^3}|{:^6}|{:^13}|{:^9}".format(i["idx"],i["name"],i["phone"],i["addr"]))
+        #print(i)
 
-def inputData():
-    pass
+def searchData():
+    print("#### 검색 ####")
+    searchName = input("검색 할 이름을 입력하세요 :")
+  
+    for i, person in enumerate(addrList):
+       if searchName == person["name"]: 
+            print(addrList[i])   
+    
+def modifyData():
+    print("#### 수정 ####")
+    modifyName = input("수정 할 이름을 입력하세요 :")
+    for i, person in enumerate(addrList):
+        if modifyName == person["name"]:
+            idx = addrList[i]
+            print(idx)
+            name = input("성명입력>>>")
+            phone = input("전화번호입력>>> ")
+            addr = input("주소입력>>>")
+            data_value = {"idx": idx, "name":name, "phone":phone, "addr":addr}
+            #addrList.append(data_value)
+            print("데이터수정성공!") 
+
+def deleteData():
+    print("#### 삭제 ####")
+    modifyName = input("삭제 할 이름을 입력하세요 :")    
+    for i, person in enumerate(addrList):
+        if modifyName == person["name"]:
+            idx = addrList[i]
+            print(idx)
+            print("데이터삭제성공!")
 
 factory = [inputData, outputData, searchData, modifyData, deleteData]
 
@@ -29,7 +67,7 @@ def run(no):
     if no == 6:
           print("#### 종료 ####")
           exit(0)
-    if no in range(1, ien(factory)+1):
+    if no in range(1, len(factory)+1):
         factory[no-1]()
     else :
         print("해당 사항 없음")
@@ -43,6 +81,4 @@ def main():
 
 if __name__ == '__main__':
     main()
-    
-        
    

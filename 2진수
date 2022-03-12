@@ -1,0 +1,14 @@
+alpha=str(input())
+alpha_list= ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
+list_no = alpha_list.index(alpha)
+list_no +=1
+if list_no == 1:
+    print("레벨1")
+elif 1 < list_no < 4:
+    print("레벨2")
+elif 3 < list_no < 8:
+    print("레벨3")
+elif 7 < list_no < 16:
+    print("레벨4")
+elif 15 < list_no < 27:
+    print("레벨5")

@@ -1,0 +1,11 @@
+try:
+    inputData = int(input())
+except:
+    inputData = input()
+    inputData.split()
+    for i in inputData:
+        print(i)
+        i = int(input())
+
+else:
+    pass

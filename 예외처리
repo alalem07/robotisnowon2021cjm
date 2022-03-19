@@ -1,0 +1,11 @@
+list = ["오징어","꼴뚜기","대구","명태","거북이","고래"]
+while True:
+    try:
+        a = str(input("제거할 대상을 입력하시오:")) 
+        list.remove(a)
+    except:
+        print("올바른 동물을 입력하시오")
+    else:
+        print(list)
+        break        
+    

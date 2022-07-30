@@ -1,0 +1,11 @@
+def fun(x,y):
+    c= x*x-y*y
+    return c
+
+
+a=int(input())
+b=int(input())
+if a>b:
+    print(fun(a,b))
+else:
+    print(fun(b,a))

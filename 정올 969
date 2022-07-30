@@ -1,0 +1,10 @@
+def fun():
+    print("@@@@@@@@@@")
+    return
+
+print("first")
+fun()
+print("second")
+fun()
+print("third")
+fun()

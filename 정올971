@@ -1,0 +1,11 @@
+def fun(x,y):
+    for j in range(x):
+        if j==x-1:
+            print((j+1)*(y+1))
+        else:
+                print((j+1)*(y+1),end=' ')
+                
+a=int(input())
+for i in range(a):
+    fun(a,i)
+

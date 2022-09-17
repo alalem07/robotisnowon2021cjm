@@ -1,0 +1,17 @@
+from binascii import b2a_hqx
+
+a=int(input())
+b=int(input())
+c=int(input())
+d=a*b*c
+e=str(d)
+print(e.count('0'))
+print(e.count('1'))
+print(e.count('2'))
+print(e.count('3'))
+print(e.count('4'))
+print(e.count('5'))
+print(e.count('6'))
+print(e.count('7'))
+print(e.count('8'))
+print(e.count('9'))

@@ -1,0 +1,6 @@
+arr="KOIOIOI"
+a=0
+for i in range(len(arr)-2):
+    if arr[i]=="I" and arr[i+1]=="O" and arr[i+2]=="I":
+        a=a+1
+print(a)

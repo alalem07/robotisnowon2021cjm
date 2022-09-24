@@ -1,0 +1,56 @@
+from calendar import day_abbr
+from posixpath import split
+
+
+a,b,c,d,e=map(int, input().split())
+
+arr1 = []
+for i in range(1,a+1):
+    if a%i==0:
+        arr1.append(i)
+arr2 = []
+for j in range(1,b+1):
+    if b%j==0:
+        arr2.append(j)
+arr3 = []
+for k in range(1,c+1):
+    if c%k==0:
+        arr3.append(k)
+arr4 = []
+for l in range(1,d+1):
+    if d%l==0:
+        arr4.append(l)
+arr5 = []
+for x in range(1,e+1):
+    if e%x==0:
+        arr5.append(x)
+if len(arr1) == 1:
+    print("number one")
+elif len(arr1) == 2:
+    print("prime number")
+else:
+    print("composite number")
+if len(arr2) == 1:
+    print("number one")
+elif len(arr2) == 2:
+    print("prime number")
+else:
+    print("composite number")
+if len(arr3) == 1:
+    print("number one")
+elif len(arr3) == 2:
+    print("prime number")
+else:
+    print("composite number")
+if len(arr4) == 1:
+    print("number one")
+elif len(arr4) == 2:
+    print("prime number")
+else:
+    print("composite number")
+if len(arr5) == 1:
+    print("number one")
+elif len(arr5) == 2:
+    print("prime number")
+else:
+    print("composite number")

@@ -1,0 +1,18 @@
+x=int(input())
+s=[]
+for i in range(x):
+    a=input()
+    try:
+        b,c=a.split()
+    except:
+        b=a
+    if a=='i':
+        s.append(c)
+    elif a=='o':
+        try:
+            print(s[-1])
+            s.pop()
+        except:
+            print("empty")
+    elif b=='c':
+        print(len(s))
